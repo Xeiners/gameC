@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="images/fene.png">
+    <title>Games</title>
+</head>
+<body>
+        
+    <header>
+        <img class="logo" src="images/logot.png" alt="logoGameC">
+        <nav>
+            <a href="#">ACCUEIL</a>
+            <a href="#">PARTIES</a>
+            <a class="here" href="index.html">MEILLEURS SCORES</a>
+        </nav>
+        <div class="login">
+            <img class="imgConnect" src="images/LOGt.png" alt="loginPerso">
+            <a class="loginNav" href="#">Login</a>
+            <p>|</p>
+            <a class="registerNav" href="#">Register</a>
+        </div>
+    </header>
+
+
+    <footer>
+        <a href="#" class="nav-link">
+            <i class='bx bxs-home-alt-2'></i>
+            <p>Accueil</p>
+            <span></span>
+        </a>
+        <a href="#" class="nav-link">
+            <i class='bx bxs-dice-6' ></i>
+            <p>Partie</p>
+            <span class="active"></span>
+        </a>
+        <a href="index.html" class="nav-link">
+            <i class='bx bxs-trophy' ></i>
+            <p>Meilleurs</p>
+            <span></span>
+        </a>
+        <a href="#" class="nav-link">
+            <i class='bx bxs-user'></i>
+            <p>Utilisateur</p>
+            <span></span>
+        </a>
+    </footer>
+     
+
+
+    <!-- LOGINNNN/register -->
+
+<div class="containerLogin close">
+    <div class="connexion">
+        <div class="btnClose">
+            <button>X</button>
+        </div>
+
+        <!-- LOGIN  -->
+        <div class="box login"> 
+        <form action="#">
+        <h2>Login</h2>    
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+                <i class='bx bx-envelope' ></i>
+            </div>    
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bx-lock-alt' ></i>
+            </div>   
+
+            <div class="remember">
+                <label>
+                    <input type="checkbox">
+                    Se souvenir</label>
+            </div>
+
+            <button type="submit" class="btnLogin"> Login</button>
+
+            <div class="login-register">
+                <p>No account ? <a href="#" class="register-link">Register</a></p>
+            </div>
+        </form>
+      </div>
+
+      <!--  REGISTER  -->
+
+      <div class="box register"> 
+        <form action="#">
+        <h2>Register</h2>    
+
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bx-user' ></i>
+            </div>  
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+                <i class='bx bx-envelope' ></i>
+            </div>    
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bx-lock-alt' ></i>
+            </div>   
+
+            <div class="remember">
+                <label>
+                    <input type="checkbox">
+                    J'accepte les conditions </label>
+            </div>
+
+            <button type="submit" class="btnLogin">Register</button>
+
+            <div class="login-register">
+                <p>You have an account ?<a href="#" class="login-link">Login</a></p>
+            </div>
+        </form>
+      </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
